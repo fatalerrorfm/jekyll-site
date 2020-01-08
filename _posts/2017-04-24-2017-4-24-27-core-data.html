@@ -1,0 +1,26 @@
+---
+layout: post
+title: 27. Core Data
+categories: []
+tags: []
+status: publish
+type: post
+published: true
+meta: {}
+---
+<p><em>Get a new Fatal Error episode every week by becoming a<em> </em><a href="https://www.patreon.com/fatalerror">Patreon supporter!</a></em><br /><br />This week, Soroush and Chris talk about why they'd basically never use Core Data.</p><ul><li><a href="https://news.ycombinator.com/item?id=6553584">Mike Ash comment on Hacker News</a> (copied below)</li><li><a href="http://khanlou.com/2015/07/cache-me-if-you-can/">Cache Me If You Can</a>: Soroush's post on why not to use Core Data as a cache</li><li><a href="https://www.youtube.com/watch?v=WpkDN78P884">Ruby Midwest 2011 - Keynote: Architecture the Lost Years by Robert Martin</a></li><li>Caleb Davenport: <a href="https://medium.com/the-way-north/ditching-core-data-865c1bb5564c">Ditching Core Data</a> (and using YapDatabase)</li><li><a href="https://en.wikipedia.org/wiki/ACID">ACID Guarantees</a></li></ul><p>Mike Ash:</p><blockquote>The short and easy answer is no, never.</blockquote><blockquote>Core Data is just not a good technology. People on the other side of this debate will say that there's an appropriate time for everything, but nothing makes sense for everything, so you have to choose based on your needs. This is half true. It misses the fact that some things are just plain bad and are never better than the alternatives in any situation, and IMO Core Data is in this category.</blockquote><blockquote>There are several fundamental problems with it.</blockquote><blockquote>First, the API is awful. If you want decent model objects in memory you either have to do a bunch of manual work, or use a third-party tool like mogenerator. Even then, the result is a massive soup of mutable objects with no intelligence. The structure of the API encourages passing the entire context around everywhere, which basically turns all of these objects into global variables. Look no further than popular Core Data wrapper APIs to see how bad this can get. For example, ObjectiveRecord[1] adds <em>class methods</em> for looking up objects using a predicate. Modularity? Separation of concerns? Perish the thought.</blockquote><blockquote>Second, it ties your on-disk representation to your in-memory representation way too strongly, and this makes it more difficult to choose appropriate structures for either one, and more difficult to make changes to either one.</blockquote><blockquote>Third, it locks you into the technology something fierce. Core Data is <em>so</em> different from everything else that once you build your model layer on it, you're just about stuck there forever. You can move away, but it's a <em>ton</em> of work that reaches into every corner of your app. Other solutions, like serializing to a property list or SQLite, simply require a translation layer that you can switch out more or less at will.</blockquote><blockquote>Fourth, it's unbelievably slow. Literally unbelievable, as in I tell people about it and they don't believe me. It's too slow for a large number of records. It's fast enough for a very small number of records, but at that level it provides no advantage over using property lists and just loading everything into memory. At the large scale, you don't want to load everything into memory so you need a better scheme, but then you need something like SQLite so you can avoid the slowness and gain more control. Core Data is really only workable when your quantity of data is in a happy medium, which exists roughly within the range of 1097 to 1143 records. (Warning: previous numbers made up.) Since you can almost never guarantee that your data will live in that happy medium and not exceed it, Core Data is a bad choice.</blockquote><blockquote>I understand why its proponents advocate for it. It's shiny. Apple pushes it hard, and people tend to like what Apple tells them to like. It gives the illusion of making things easy. It <em>does</em> make certain simple things easy. The problem is that making easy things easier is not a virtue. Making difficult things easier is what counts, and Core Data fails at that.</blockquote><blockquote>[1] <a href="https://github.com/mneorr/ObjectiveRecord">https://github.com/mneorr/ObjectiveRecord</a></blockquote>
+
+<div 
+  class="sqs-audio-embed"
+  data-url="http://static1.squarespace.com/static/578d8d3bf5e231fc9f850e55/578d8eaebe65944d662e0687/58fd52b25016e127e52374bf/1492996815492/Episode+27+-+Core+Data.mp3/original/Episode+27+-+Core+Data.mp3"
+  data-mime-type=""
+  data-title="Episode 27 - Core Data"
+  data-author="Soroush Khanlou &amp; Chris Dzombak"
+  data-show-download="true"
+  data-design-style="minimal"
+  data-duration-in-ms="1449000"
+  data-color-theme="dark"
+
+  
+>
+</div>
