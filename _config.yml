@@ -6,6 +6,7 @@ description: Fatal Error was a podcast that ran from 2016 to 2018
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fatalerror.fm"
 real_url: "https://fatalerror.fm"
+permalink: /:year/:i_month/:i_day/:title:output_ext
 
 # Build settings
 markdown: kramdown
