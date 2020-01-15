@@ -4,7 +4,8 @@ description: Fatal Error was a podcast that ran from 2016 to 2018
   about iOS and Swift development, hosted by Chris Dzombak and Soroush
   Khanlou.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fatalerror.fm" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fatalerror.fm"
+real_url: "https://fatalerror.fm"
 
 # Build settings
 markdown: kramdown
