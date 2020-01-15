@@ -6,7 +6,11 @@ layout: null
   <channel>
     <title>{{ site.title | xml_escape }}</title>
     <link>{{ site.real_url }}/</link>
-    <description>{{ site.description | xml_escape }}</description>
+    <lastBuildDate>Mon, 11 Jun 2018 12:21:03 +0000</lastBuildDate>
+    <language>en-US</language>
+    <generator>Site-Server v6.0.0-2599-2599 (http://www.squarespace.com)</generator>
+    <itunes:author>Soroush Khanlou &amp; Chris Dzombak</itunes:author>
+    <itunes:subtitle>Fatal Error is a podcast about software development.</itunes:subtitle>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>Chris Dzombak</itunes:name>
@@ -21,14 +25,13 @@ layout: null
     <copyright>© 2017 Chris Dzombak &amp; Soroush Khanlou</copyright>
     <itunes:image href="https://images.squarespace-cdn.com/content/578d8d3bf5e231fc9f850e55/1472339778004-VWEF7WKJASQJNRF0MWXB/fatal+error+icon.png?format=1500w&amp;content-type=image%2Fpng"/>
     <description><![CDATA[Fatal Error is a weekly show hosted by software developers Soroush Khanlou and Chris Dzombak. We discuss topics at the cutting edge of iOS software architecture, Swift, and best practices.]]></description>
-    <atom:link href="{{ "/feed.xml" | prepend: site.real_url }}" rel="self" type="application/rss+xml"/>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts limit:10 %}<item>
+    {% for post in site.posts %}<item>
       <title>{{ post.title | xml_escape }}</title>
       <dc:creator>Chris Dzombak</dc:creator>
-      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <pubDate>{% if post.rss_date %}{{ post.rss_date }}{% else %}{{ post.date | date_to_rfc822 }}{% endif %}</pubDate>
       <link>{{ post.url | prepend: site.real_url }}</link>
       <guid isPermaLink="false">{% if post.guid %}{{ post.guid }}{% else %}{{ post.url | prepend: site.real_url }}{% endif %}</guid>
       <description>{{ post.content | xml_escape }}</description>
@@ -39,9 +42,12 @@ layout: null
       {% endif %}<itunes:image href="https://images.squarespace-cdn.com/content/578d8d3bf5e231fc9f850e55/1472339778004-VWEF7WKJASQJNRF0MWXB/fatal+error+icon.png?format=1500w&amp;content-type=image%2Fpng"/>
       {% if post.itunes_season %}<itunes:season>{{ post.itunes_season }}</itunes:season>
       {% endif %}{% if post.itunes_episode %}<itunes:episode>{{ post.itunes_episode }}</itunes:episode>
-      {% endif %}<itunes:title>Teaser: 70. The Finale</itunes:title>
-      <itunes:episodeType>trailer</itunes:episodeType>
+      {% endif %}{% if post.itunes_title %}<itunes:title>{{ post.itunes_title }}</itunes:title>
+      {% endif %}{% if post.itunes_episodetype %}<itunes:episodeType>{{ post.itunes_episodetype }}</itunes:episodeType>
+      {% endif %}<enclosure url="https://static1.squarespace.com/static/578d8d3bf5e231fc9f850e55/t/5af5abd41ae6cf4b30f27ef6/1526049751600/Ep+68+-+Teaser.mp3" length="800611" type="audio/mpeg"/>
+      <media:content url="https://static1.squarespace.com/static/578d8d3bf5e231fc9f850e55/t/5af5abd41ae6cf4b30f27ef6/1526049751600/Ep+68+-+Teaser.mp3" length="800611" type="audio/mpeg" isDefault="true" medium="audio">
+        <media:title type="plain">{{ post.itunes_title }}</media:title>
+      </media:content>
     </item>
-    {% endfor %}
-  </channel>
+  {% endfor %}</channel>
 </rss>
