@@ -11,8 +11,6 @@ permalink: /:year/:i_month/:i_day/:title:output_ext
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
-  - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
