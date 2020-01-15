@@ -1,0 +1,47 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ site.title | xml_escape }}</title>
+    <link>{{ site.real_url }}/</link>
+    <description>{{ site.description | xml_escape }}</description>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:owner>
+      <itunes:name>Chris Dzombak</itunes:name>
+      <itunes:email>chris@chrisdzombak.net</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
+    <itunes:category text="Education">
+      <itunes:category text="Training"/>
+    </itunes:category>
+    <copyright>© 2017 Chris Dzombak &amp; Soroush Khanlou</copyright>
+    <itunes:image href="https://images.squarespace-cdn.com/content/578d8d3bf5e231fc9f850e55/1472339778004-VWEF7WKJASQJNRF0MWXB/fatal+error+icon.png?format=1500w&amp;content-type=image%2Fpng"/>
+    <description><![CDATA[Fatal Error is a weekly show hosted by software developers Soroush Khanlou and Chris Dzombak. We discuss topics at the cutting edge of iOS software architecture, Swift, and best practices.]]></description>
+    <atom:link href="{{ "/feed.xml" | prepend: site.real_url }}" rel="self" type="application/rss+xml"/>
+    <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <generator>Jekyll v{{ jekyll.version }}</generator>
+    {% for post in site.posts limit:10 %}<item>
+      <title>{{ post.title | xml_escape }}</title>
+      <dc:creator>Chris Dzombak</dc:creator>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <link>{{ post.url | prepend: site.real_url }}</link>
+      <guid isPermaLink="false">{% if post.guid %}{{ post.guid }}{% else %}{{ post.url | prepend: site.real_url }}{% endif %}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+      {% if post.itunes_author %}<itunes:author>{{ post.itunes_author }}</itunes:author>
+      {% endif %}{% if post.itunes_summary %}<itunes:summary>{{ post.itunes_summary }}</itunes:summary>
+      {% endif %}<itunes:explicit>no</itunes:explicit>
+      {% if post.itunes_duration %}<itunes:duration>{{ post.itunes_duration }}</itunes:duration>
+      {% endif %}<itunes:image href="https://images.squarespace-cdn.com/content/578d8d3bf5e231fc9f850e55/1472339778004-VWEF7WKJASQJNRF0MWXB/fatal+error+icon.png?format=1500w&amp;content-type=image%2Fpng"/>
+      {% if post.itunes_season %}<itunes:season>{{ post.itunes_season }}</itunes:season>
+      {% endif %}{% if post.itunes_episode %}<itunes:episode>{{ post.itunes_episode }}</itunes:episode>
+      {% endif %}<itunes:title>Teaser: 70. The Finale</itunes:title>
+      <itunes:episodeType>trailer</itunes:episodeType>
+    </item>
+    {% endfor %}
+  </channel>
+</rss>
