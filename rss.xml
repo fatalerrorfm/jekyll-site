@@ -30,7 +30,7 @@ layout: null
     <generator>Jekyll v{{ jekyll.version }}</generator>{% for post in site.posts %}
     <item>
       <title>{{ post.title | xml_escape }}</title>
-      <dc:creator>Chris Dzombak</dc:creator>
+      <dc:creator>{{ post.dc_creator }}</dc:creator>
       <pubDate>{% if post.rss_date %}{{ post.rss_date }}{% else %}{{ post.date | date_to_rfc822 }}{% endif %}</pubDate>
       <link>{{ post.url | prepend: site.real_url }}</link>
       <guid isPermaLink="false">{% if post.guid %}{{ post.guid }}{% else %}{{ post.url | prepend: site.real_url }}{% endif %}</guid>

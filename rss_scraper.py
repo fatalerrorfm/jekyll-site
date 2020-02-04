@@ -50,6 +50,9 @@ for e in d.entries:
             enclosure = e.media_content[0]
             new_lines.append('{}: {}\n'.format("episode_length", enclosure["length"]))
             new_lines.append('{}: {}\n'.format("media_url", enclosure["url"].split("/")[-1]))
+        
+        if e.author_detail and e.author_detail.name:
+            new_lines.append('{}: {}\n'.format("dc_creator", e.author_detail.name))
             
         
         # 'links'
