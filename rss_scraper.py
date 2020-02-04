@@ -46,6 +46,12 @@ for e in d.entries:
         copy_value(e, new_lines, "itunes_title", "itunes_title", True)
         copy_value(e, new_lines, "itunes_episodetype")
         
+        if e.media_content:
+            enclosure = e.media_content[0]
+            new_lines.append('{}: {}\n'.format("episode_length", enclosure["length"]))
+            new_lines.append('{}: {}\n'.format("media_url", enclosure["url"].split("/")[-1]))
+            
+        
         # 'links'
         # 'link'
         # 'id'
@@ -56,10 +62,7 @@ for e in d.entries:
         # 'image'
         # 'media_content'
         
-        
-        
         new_lines = new_lines + lines[2:]
     with open(root_dir + "/_posts/"+fname, "w") as outfile:
-        print()
-        # outfile.write(''.join(new_lines))
+        outfile.write(''.join(new_lines))
 
