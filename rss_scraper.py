@@ -34,7 +34,7 @@ for e in d.entries:
     with open(root_dir + "/_posts/"+fname, "r") as infile:
         lines = infile.readlines()
         new_lines = lines[:2]
-        print(e.media_content)
+        print(e)
         copy_value(e, new_lines, "guid")
         copy_value(e, new_lines, "published", "rss_date")
         copy_value(e, new_lines, "itunes_season")

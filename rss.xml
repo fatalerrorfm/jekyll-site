@@ -27,8 +27,8 @@ layout: null
     <description><![CDATA[Fatal Error is a weekly show hosted by software developers Soroush Khanlou and Chris Dzombak. We discuss topics at the cutting edge of iOS software architecture, Swift, and best practices.]]></description>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
-    <generator>Jekyll v{{ jekyll.version }}</generator>
-    {% for post in site.posts %}<item>
+    <generator>Jekyll v{{ jekyll.version }}</generator>{% for post in site.posts %}
+    <item>
       <title>{{ post.title | xml_escape }}</title>
       <dc:creator>Chris Dzombak</dc:creator>
       <pubDate>{% if post.rss_date %}{{ post.rss_date }}{% else %}{{ post.date | date_to_rfc822 }}{% endif %}</pubDate>
@@ -44,10 +44,10 @@ layout: null
       {% endif %}{% if post.itunes_episode %}<itunes:episode>{{ post.itunes_episode }}</itunes:episode>
       {% endif %}{% if post.itunes_title %}<itunes:title>{{ post.itunes_title }}</itunes:title>
       {% endif %}{% if post.itunes_episodetype %}<itunes:episodeType>{{ post.itunes_episodetype }}</itunes:episodeType>
-      {% endif %}<enclosure url="https://static1.squarespace.com/static/578d8d3bf5e231fc9f850e55/t/5af5abd41ae6cf4b30f27ef6/1526049751600/Ep+68+-+Teaser.mp3" length="800611" type="audio/mpeg"/>
-      <media:content url="https://static1.squarespace.com/static/578d8d3bf5e231fc9f850e55/t/5af5abd41ae6cf4b30f27ef6/1526049751600/Ep+68+-+Teaser.mp3" length="800611" type="audio/mpeg" isDefault="true" medium="audio">
+      {% endif %}{% if post.media_url %}{% assign media_url = site.real_url | append: "/attachments/" | append: post.media_url %}<enclosure url="{{ media_url }}" length="{{ post.episode_length }}" type="audio/mpeg"/>
+      <media:content url="{{ media_url }}" length="{{ post.episode_length }}" type="audio/mpeg" isDefault="true" medium="audio">
         <media:title type="plain">{{ post.itunes_title }}</media:title>
-      </media:content>
-    </item>
-  {% endfor %}</channel>
+      </media:content>{% endif %}
+    </item>{% endfor %}
+  </channel>
 </rss>
