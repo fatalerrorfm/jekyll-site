@@ -35,7 +35,7 @@ layout: null
       <link>{{ post.url | prepend: site.real_url }}</link>
       <guid isPermaLink="false">{% if post.guid %}{{ post.guid }}{% else %}{{ post.url | prepend: site.real_url }}{% endif %}</guid>
       <description>{{ post.content | xml_escape }}</description>
-      {% if post.itunes_author %}<itunes:author>{{ post.itunes_author }}</itunes:author>
+      {% if post.itunes_author %}<itunes:author>{{ post.itunes_author | escape }}</itunes:author>
       {% endif %}{% if post.itunes_summary %}<itunes:summary>{{ post.itunes_summary }}</itunes:summary>
       {% endif %}<itunes:explicit>no</itunes:explicit>
       {% if post.itunes_duration %}<itunes:duration>{{ post.itunes_duration }}</itunes:duration>
