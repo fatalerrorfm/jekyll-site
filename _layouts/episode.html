@@ -3,3 +3,11 @@ layout: post
 ---
 
   {{ content }}
+
+  <audio controls 
+    src="/attachments/{{ page.media_url }}"
+    data-title="{{ page.title }}"
+    data-author="{{ page.itunes_author }}"
+    data-duration-in-ms="{{ page.episode_length }}"
+    >
+  </audio>
