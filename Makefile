@@ -21,6 +21,11 @@ build:  ## Perform a one off build to ./_site
 clean:  ## Remove all generated files: destination folder, metadata file, Sass and Jekyll caches
 	bundle exec jekyll clean
 
+.PHONY: deploy-staging
+deploy-staging:  build ## Deploy to cdzombak's server for staging https://fe-staging.cdzombak.net
+	rsync -avz --delete _site/ burr.cdzombak.net:~/www/fatalerror/staging/
+	@terminal-notifier -title "fe-staging.cdzombak.net" -message "Deployed Staging" -open "https://fe-staging.cdzombak.net"
+
 .PHONY: serve
 serve:  ## Serve the site locally, rebuilding it any time a source file changes
 	bundle exec jekyll serve
