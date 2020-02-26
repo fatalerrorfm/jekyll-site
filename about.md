@@ -1,15 +1,14 @@
 ---
 layout: page
-title: About
+title: About Fatal Error
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+**“I bet we can talk for thirty minutes about that.”**
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+Fatal Error is a podcast about software development, hosted by  Soroush Khanlou and Chris Dzombak.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+We discuss topics at the cutting edge of software architecture, Swift, and software development best practices.
+
+Fatal Error ended after its fourth season. Even-numbered episodes are available exclusively to our Patreon supporters, who we thank for their support.
+
