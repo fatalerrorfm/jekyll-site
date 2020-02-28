@@ -10,7 +10,10 @@ permalink: /:categories/:year/:i_month/:i_day/:title
 
 # Build settings
 markdown: kramdown
-theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+remote_theme: jekyll/minima
 exclude:
   - Gemfile
   - Gemfile.lock
