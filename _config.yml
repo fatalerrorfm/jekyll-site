@@ -21,3 +21,4 @@ exclude:
   - vendor
   - rss_scraper.py
   - wordpress.xml
+  - episodes.rss
