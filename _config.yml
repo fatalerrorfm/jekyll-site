@@ -7,6 +7,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fatalerror.fm"
 real_url: "https://fatalerror.fm"
 permalink: /:categories/:year/:i_month/:i_day/:title
+feed:
+  path: rss.xml
 
 # Build settings
 markdown: kramdown
