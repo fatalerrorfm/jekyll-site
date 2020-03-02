@@ -22,9 +22,14 @@ clean:  ## Remove all generated files: destination folder, metadata file, Sass a
 	bundle exec jekyll clean
 
 .PHONY: deploy-staging
-deploy-staging:  build ## Deploy to cdzombak's server for staging https://fe-staging.cdzombak.net
-	rsync -avz --delete _site/ burr.cdzombak.net:~/www/fatalerror/staging/
+deploy-staging: build ## Deploy to cdzombak's server for staging https://fe-staging.cdzombak.net
+	rsync -avz --delete _site/ cdzombak@burr.cdzombak.net:/home/cdzombak/www/fatalerror/staging/
 	@terminal-notifier -title "fe-staging.cdzombak.net" -message "Deployed Staging" -open "https://fe-staging.cdzombak.net"
+
+.PHONY: deploy-production
+deploy-production: build ## Deploy to production https://fatalerror.fm
+	rsync -avz --delete _site/ cdzombak@burr.cdzombak.net:/home/cdzombak/www/fatalerror/production/
+	@terminal-notifier -title "fatalerror.fm" -message "Deployed Production" -open "https://fatalerror.fm"
 
 .PHONY: serve
 serve:  ## Serve the site locally, rebuilding it any time a source file changes
