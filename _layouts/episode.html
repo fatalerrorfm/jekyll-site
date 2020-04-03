@@ -3,7 +3,7 @@ layout: post
 ---
 
   {{ content }}
-
+  {% if page.media_url %}
   <audio controls 
     src="/attachments/{{ page.media_url }}"
     data-title="{{ page.title }}"
@@ -11,3 +11,4 @@ layout: post
     data-duration-in-ms="{{ page.episode_length }}"
     >
   </audio>
+  {% endif %}
