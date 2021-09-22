@@ -7,7 +7,7 @@ help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
 .PHONY: build
-build:  ## Perform a one off build to ./_site
+build: fix-attachment-permissions  ## Perform a one off build to ./_site
 	rm -rf ./_site
 	@mkdir -p .docker-vendor/bundle
 	docker run --rm -it \
@@ -56,6 +56,10 @@ deploy-staging: build  ## Deploy to cdzombak's server for staging: https://fe-st
 	rsync -avz --delete _site/ cdzombak@burr.cdzombak.net:/home/cdzombak/www/fatalerror/staging/
 	@terminal-notifier -title "fe-staging.cdzombak.net" -message "Deployed Staging" -open "https://fe-staging.cdzombak.net"
 
+.PHONY: open-staging
+open-staging:  ## Open the production website
+	@open "https://fe-staging.cdzombak.net"
+
 .PHONY: deploy-production
 deploy-production: build  ## Deploy to production: https://fatalerror.fm
 	rsync -avz --delete _site/ cdzombak@burr.cdzombak.net:/home/cdzombak/www/fatalerror/production/
@@ -64,3 +68,9 @@ deploy-production: build  ## Deploy to production: https://fatalerror.fm
 .PHONY: open
 open:  ## Open the production website
 	@open "https://fatalerror.fm"
+
+.PHONY: fix-attachment-permissions
+fix-attachment-permissions:
+	# Fix permissions on files that come from my NAS over SMB
+	chmod -x attachments/*.mp3
+	chmod 644 attachments/*.mp3
