@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+while ! curl -s -f --head "$1" >/dev/null ; do
+    sleep 0.5
+done

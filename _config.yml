@@ -1,3 +1,4 @@
+---
 title: Fatal Error
 author:
   name: "Soroush Khanlou & Chris Dzombak"
@@ -5,7 +6,7 @@ author:
 description: Fatal Error was a podcast that ran from 2016 to 2018
   about iOS and Swift development, hosted by Chris Dzombak and Soroush
   Khanlou.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: "https://fatalerror.fm"
 real_url: "https://fatalerror.fm"
 permalink: /:categories/:year/:i_month/:i_day/:title
@@ -19,10 +20,10 @@ plugins:
   - jekyll-remote-theme
 remote_theme: jekyll/minima
 exclude:
+  - Makefile
   - Gemfile
   - Gemfile.lock
-  - Makefile
-  - vendor
   - rss_scraper.py
   - wordpress.xml
   - episodes.rss
+  - scripts

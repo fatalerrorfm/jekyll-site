@@ -1,4 +1,11 @@
 _site
-vendor
-.sass-cache
+
+.jekyll-cache
 .jekyll-metadata
+.sass-cache
+.docker-vendor
+
+*~
+*.bak
+.bundle
+.DS_Store
