@@ -4,3 +4,4 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
 ---
+The **Fatal Error** podcast, hosted by Soroush Khanlou and Chris Dzombak, ran from 2016 to 2018.
