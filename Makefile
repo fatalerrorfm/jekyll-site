@@ -51,17 +51,8 @@ serve:  ## Serve the site locally, rebuilding it any time a source file changes
 stop:  ## Stop the local preview server started via 'serve'
 	docker kill --signal="SIGINT" fesite_jekyll_preview
 
-.PHONY: deploy-staging
-deploy-staging: build  ## Deploy to cdzombak's server for staging: https://fe-staging.cdzombak.net
-	rsync -avz --delete _site/ cdzombak@burr.cdzombak.net:/home/cdzombak/www/fatalerror/staging/
-	@terminal-notifier -title "fe-staging.cdzombak.net" -message "Deployed Staging" -open "https://fe-staging.cdzombak.net"
-
-.PHONY: open-staging
-open-staging:  ## Open the production website
-	@open "https://fe-staging.cdzombak.net"
-
-.PHONY: deploy-production
-deploy-production: build  ## Deploy to production: https://fatalerror.fm
+.PHONY: deploy
+deploy: build  ## Deploy to https://fatalerror.fm
 	rsync -avz --delete _site/ cdzombak@burr.cdzombak.net:/home/cdzombak/www/fatalerror/production/
 	@terminal-notifier -title "fatalerror.fm" -message "Deployed Production" -open "https://fatalerror.fm"
 
