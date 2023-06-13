@@ -1,0 +1,188 @@
+Doing 314582175-fatalerrorfm-episode-23-objective-c-vs-swift.mp3
+https://api.assemblyai.com/v2/transcript/61b6hdvgo0-4a06-4efb-aa68-01167510ad10
+Doing 66._Sequence_and_Collection_and_Iterator_Oh_My.mp3
+https://api.assemblyai.com/v2/transcript/61b6c2mas5-4535-4232-9181-301fd37c634d
+Doing E29+-+Protocols+with+Associated+Types.mp3
+https://api.assemblyai.com/v2/transcript/61b6ddevso-646b-4fc8-9a84-268c1457ae13
+Doing E35+-+The+Ownership+Manifesto.mp3
+https://api.assemblyai.com/v2/transcript/61b6pjcqas-49bf-48c5-9950-db29bad1e713
+Doing E51_Aftershow.mp3
+https://api.assemblyai.com/v2/transcript/61b6m8o5du-f852-4efc-b9b6-00ccd7ed75ee
+Doing Ep+68+-+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61b6mv4iqq-c506-4016-a52e-3551ace17b24
+Doing Ep_68_-Negotiating.mp3
+https://api.assemblyai.com/v2/transcript/61b6a6p49t-0c7e-410f-89fa-1809de3c7a1b
+Doing Episde+45+-+Fault+Tolerance+with+Actors.mp3
+https://api.assemblyai.com/v2/transcript/61b6anbelf-78a1-405a-8ea1-cd439a6087f0
+Doing Episode 12 - Swift 3 Migration.mp3
+https://api.assemblyai.com/v2/transcript/61b62nrh4s-b28b-440b-ba54-c45ce1dc6421
+Doing Episode+10+-+Why+This+All+Matters.mp3
+https://api.assemblyai.com/v2/transcript/61b6v1bwhx-9b38-41f1-8e9d-5ebbbc87dcc9
+Doing Episode+11+-+Codegen.mp3
+https://api.assemblyai.com/v2/transcript/61b6ftvtul-d8a9-4af2-81c0-381b5caf1b46
+Doing Episode+13+-+The+Law+of+Demeter.mp3
+https://api.assemblyai.com/v2/transcript/61b6w7y019-c9b8-49aa-88cd-b79a384898cd
+Doing Episode+15+-+Not+Invented+Here.mp3
+https://api.assemblyai.com/v2/transcript/61b6w9w1ap-b719-4725-813f-4b3f4eea343c
+Doing Episode+17+-+Testing+Network+Layers.mp3
+https://api.assemblyai.com/v2/transcript/61b65cy1bt-162c-4f42-9b00-698c178ef442
+Doing Episode+19+-+Playgrounds+Conference.mp3
+https://api.assemblyai.com/v2/transcript/61b696zngl-a571-4648-8e16-0c6950d3a521
+Doing Episode+2+-+View+Models.mp3
+https://api.assemblyai.com/v2/transcript/61b69dxoau-c411-490c-9d59-43b62045c599
+Doing Episode+21+-+Try%21+Swift+Tokyo.mp3
+https://api.assemblyai.com/v2/transcript/61bkenbrwq-3867-4730-99df-c9c0652498b4
+Doing Episode+25+-+Erica+and+Sara.mp3
+https://api.assemblyai.com/v2/transcript/61bko9nlza-1ee9-4690-8ac8-a65464f7aea8
+Doing Episode+26+-+Persistence+%28Teaser%29.mp3
+https://api.assemblyai.com/v2/transcript/61bkky83yi-64e9-428a-aabc-4f846ddee6ef
+Doing Episode+27+-+Core+Data.mp3
+https://api.assemblyai.com/v2/transcript/61bkkc2r1q-d8d7-424b-9579-90c909eebd77
+Doing Episode+28+-+The+String+Manifesto+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkgn5qbc-5380-456f-a21f-04a1b68fa3b6
+Doing Episode+3+-+View+Models%2C+Again.mp3
+https://api.assemblyai.com/v2/transcript/61bkz8xifi-2247-452e-be96-9eb796a9f69c
+Doing Episode+31+-+Swift+4.mp3
+https://api.assemblyai.com/v2/transcript/61bk1grd2d-8146-4ae5-803d-01c0c51db901
+Doing Episode+32+-+Getting+Started+in+a+New+Codebase+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkypi1km-df59-4f50-b65d-573e47cfd617
+Doing Episode+33+-+Server-side+Swift+in+Practice.mp3
+https://api.assemblyai.com/v2/transcript/61bkxockh2-f53e-4106-99e3-cdf95c31d83e
+Doing Episode+34+-+Promises+%E2%80%A6%C2%A0in+Objective-C+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkbbgxnm-d57d-40af-aeb1-a70a050e4c55
+Doing Episode+36+-+Conferences+%26+Talks+%28%26+Blogging%29+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkbumtx6-1496-4f5a-aa31-12544c52d26a
+Doing Episode+37+-+Soroush%E2%80%99s+Swift+Evolution+Proposal.mp3
+https://api.assemblyai.com/v2/transcript/61bk0eb8dr-74a9-404f-b4de-82c3421123a0
+Doing Episode+38+-+Third-Party+Dependencies+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bk0vm70j-d670-4d28-95d2-0d05db4f2015
+Doing Episode+39+-+Our+First+Apps.mp3
+https://api.assemblyai.com/v2/transcript/61bk7k1zvh-ea92-4541-9561-cd17225d8dbf
+Doing Episode+4+-+Promises.mp3
+https://api.assemblyai.com/v2/transcript/61bkluidal-97d2-401c-bc24-d5664f316698
+Doing Episode+40+-+Async-Await+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkiqobzi-d501-405f-ba07-288115fed67b
+Doing Episode+41+-+Talking+Swift-Evolution+with+Kelvin.mp3
+https://api.assemblyai.com/v2/transcript/61bkij2ohi-f1de-47ac-ac89-3ff9a215ea14
+Doing Episode+42+-+Actors+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bki5ewzt-96be-4487-9859-7e609ba1524a
+Doing Episode+43+-+Jason+Brennan+on+Beach.mp3
+https://api.assemblyai.com/v2/transcript/61bkqkuqzv-a6d8-4fd3-a22d-d6da33fa15b1
+Doing Episode+44+-+Grab+Bag+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkty62iz-7bf6-481c-a0e7-4d6c918005d0
+Doing Episode+46+-+Reflecting+on+Swift+and+Objective-C+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bktitumr-ed3a-41c9-a3fb-3169beb84115
+Doing Episode+47+-+Strange+Loop.mp3
+https://api.assemblyai.com/v2/transcript/61bkt8rwrj-a343-41c8-84ac-d5165b4da5e3
+Doing Episode+48+-+Productivity+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bk80on0w-13c9-4d3a-8e76-05d439e2efa4
+Doing Episode+49+-+Chris+Writes+Python.mp3
+https://api.assemblyai.com/v2/transcript/61bk88j77y-3de1-4025-9c8f-b611ed5fe358
+Doing Episode+5+-+Reactive+Programming.mp3
+https://api.assemblyai.com/v2/transcript/61bk3cebdy-a20a-499b-8c67-0ddc4d86b3ce
+Doing Episode+50+-+Internet+of+Things+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkungmaq-c983-45e4-81ff-d975f5fe502f
+Doing Episode+51+-+Ticks+and+Trips.mp3
+https://api.assemblyai.com/v2/transcript/61bku9izgr-9fe1-4cfb-8370-2d4d03d09cfd
+Doing Episode+52+-+Spooked+about+Spectre+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkhbxf56-65d0-4bf3-bc6d-16e98b81da4d
+Doing Episode+53+-+Android.mp3
+https://api.assemblyai.com/v2/transcript/61bkhpmzju-13c3-4e06-b3c0-2a4899477f66
+Doing Episode+54+-+Ecstatic+about+Enums+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkdg77s2-f2d2-42e3-9f56-a4f5769fb488
+Doing Episode+55_+Fired+Up+about+Firebase.mp3
+https://api.assemblyai.com/v2/transcript/61bkd7o5lx-93be-4c75-8024-d91e1d935d30
+Doing Episode+56+-+A+Chris+Shaped+Scream+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkpbokll-6bcd-432e-b55e-91897bf1fabb
+Doing Episode+57+-+Lattnerianly+In-Depth.mp3
+https://api.assemblyai.com/v2/transcript/61bkpjkjez-09a9-4ca0-bcda-1660ae3e1dea
+Doing Episode+58+-+Pi%2C+Delicious+Pi+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkmi3nlf-1b7b-4a63-8682-05654e4c2f91
+Doing Episode+59+-+Why+did+they+even+hire+Chris_.mp3
+https://api.assemblyai.com/v2/transcript/61bkmvxh8b-b18e-4c0a-a4dd-9ce9fb9b6d61
+Doing Episode+6+-+Singletons.mp3
+https://api.assemblyai.com/v2/transcript/61bka2go29-4f5d-400e-9469-32af73e79d5a
+Doing Episode+60+-+Soroush+in+the+Standard+Library+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bk2jifx7-bdef-416e-9cb3-147482152c87
+Doing Episode+61+-+Hypothetical+Testing+Tricks.mp3
+https://api.assemblyai.com/v2/transcript/61bk2vm8ba-f47e-4f0a-95ec-06bb00e93dd3
+Doing Episode+62+-+Convergent+Swift+Evolution+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bknhqcmq-1286-49e3-b313-a1e7b3c6e281
+Doing Episode+63+-+Two+People+Who+Like+Type+Systems.mp3
+https://api.assemblyai.com/v2/transcript/61bkn2lgw5-f099-423b-a701-7965a397f6fa
+Doing Episode+64+-+AI+Apoptosis+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkvpkzyy-6fc4-4953-994c-8f29ec22b303
+Doing Episode+65+-+Times+That+Do+Not+Exist.mp3
+https://api.assemblyai.com/v2/transcript/61bkv5khhf-6c8a-4ad4-a5e5-cfee94211f7d
+Doing Episode+66+-+Teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bkwrtu5f-96c1-46d3-8cac-333e8e7b8fa0
+Doing Episode+67+-+The+Whatever+Planet+From+The+Sun.mp3
+https://api.assemblyai.com/v2/transcript/61bkw16g91-7f93-4231-ac76-c86711353b4b
+Doing Episode+69+-+null.mp3
+https://api.assemblyai.com/v2/transcript/61bk5rfxu6-0f49-4c18-970c-7ecb2ff05379
+Doing Episode+7+-+The+Single+Responsibility+Principle.mp3
+https://api.assemblyai.com/v2/transcript/61bk944fkw-047f-4282-945a-0ff7a1108266
+Doing Episode+70+-+teaser.mp3
+https://api.assemblyai.com/v2/transcript/61bgeqyg5j-ffd6-4027-8fd6-e0e97c855854
+Doing Episode+8+-+Domain-Driven+Design.mp3
+https://api.assemblyai.com/v2/transcript/61bgemsv2f-ddf7-4956-83b7-6553d7ff5574
+Doing Episode+9+-+Getting+Started+with+Testing.mp3
+https://api.assemblyai.com/v2/transcript/61bgomm0g3-f045-4648-8134-0d70edea64fa
+Doing Episode_14_-_Tests_and_Types.mp3
+https://api.assemblyai.com/v2/transcript/61bgr5760z-6063-442e-9fe3-abf842aeea16
+Doing Episode_16_-_Swifty_Error_Handling.mp3
+https://api.assemblyai.com/v2/transcript/61bg6f010y-c1fe-4b9d-8e68-4c3744289f08
+Doing Episode_18_-_Code_Review.mp3
+https://api.assemblyai.com/v2/transcript/61bgkvjuoz-f3f0-4526-b26c-b8c3e4a9c142
+Doing Episode_20_-_Simple_Made_Easy.mp3
+https://api.assemblyai.com/v2/transcript/61bggmssls-1e9f-4981-82de-3f076d393c31
+Doing Episode_22_-_Optional_Properties.mp3
+https://api.assemblyai.com/v2/transcript/61bgzparto-89c2-4f0d-867c-7f6ec129053f
+Doing Episode_24_-_Fileprivate.mp3
+https://api.assemblyai.com/v2/transcript/61bgs0nf7o-7209-426b-8f9c-34f1e423040d
+Doing Episode_26_-_Persistence.mp3
+https://api.assemblyai.com/v2/transcript/61bg4kyfk5-496e-4e72-a44d-0ef519eec3e2
+Doing Episode_28_-_The_String_Manifesto.mp3
+https://api.assemblyai.com/v2/transcript/61bg119e6p-31ab-47a6-8ba2-0b0b1e8d7f28
+Doing Episode_30_-_Server-Side_Swift.mp3
+https://api.assemblyai.com/v2/transcript/61bgy036v0-7079-49fd-a96d-91cb4f383428
+Doing Episode_32_-_Getting_Started_in_a_New_Codebase.mp3
+https://api.assemblyai.com/v2/transcript/61bgx7pcew-58e3-404d-a033-610e299b5160
+Doing Episode_34_-_Promises_..._in_Objective-C.mp3
+https://api.assemblyai.com/v2/transcript/61bgbyj22f-1a08-4f10-861d-c8b79d052f24
+Doing Episode_36_-_Conferences__Talks__Blogging.mp3
+https://api.assemblyai.com/v2/transcript/61bg06hkf0-9a2b-47f6-958c-35972fabbc91
+Doing Episode_38_-_Third-Party_Dependencies.mp3
+https://api.assemblyai.com/v2/transcript/61bg7r3wgx-6186-4bc6-9fed-f1bd95f0eeb2
+Doing Episode_40_-_Async-Await.mp3
+https://api.assemblyai.com/v2/transcript/61bglosg9x-bfdf-4dd7-9c83-63a396a8e8d8
+Doing Episode_42.5_Apple_Event_2.mp3
+https://api.assemblyai.com/v2/transcript/61bgi80xkw-c072-4ddf-93d2-d0868f73f438
+Doing Episode_42_-_Actors.mp3
+https://api.assemblyai.com/v2/transcript/61bgqcvh74-12cc-4cd6-90ef-e0c6d15f9ae3
+Doing Episode_44_-_Grab_Bag.mp3
+https://api.assemblyai.com/v2/transcript/61bg8izhvm-5dcb-446c-a6b9-4b2ffb37c48d
+Doing Episode_46_-_Reflecting_on_Swift_and_Objective-C.mp3
+https://api.assemblyai.com/v2/transcript/61bguel24t-1a8c-469d-98b0-345c75e89f20
+Doing Episode_48_-_Productivity.mp3
+https://api.assemblyai.com/v2/transcript/61bgje2tnd-527b-4b1c-9672-cff98184f3fc
+Doing Episode_50_-_Internet_of_Things.mp3
+https://api.assemblyai.com/v2/transcript/61bgjwbmq3-3d97-4165-8d65-4e545a9a6806
+Doing Episode_52_-_Spooked_about_Spectre.mp3
+https://api.assemblyai.com/v2/transcript/61bgcqigkn-32f7-4dd2-829e-f93fde2691d0
+Doing Episode_54_-_Ecstatic_about_Enums.mp3
+https://api.assemblyai.com/v2/transcript/61bgdi4gcx-d78d-4d5c-8c9c-cca149396790
+Doing Episode_56_-_A_Chris_Shaped_Scream.mp3
+https://api.assemblyai.com/v2/transcript/61bgp0va1q-1263-4f20-b17d-545a959714a4
+Doing Episode_58_-_Pi_Delicious_Pi.mp3
+https://api.assemblyai.com/v2/transcript/61bgmpum0o-d70a-477c-a963-ac07fb203580
+Doing Episode_60_-_Soroush_in_the_Standard_Library.mp3
+https://api.assemblyai.com/v2/transcript/61bg262oue-8244-4e38-8252-4f059f8b71b9
+Doing Episode_62_-_Convergent_Swift_Evolution.mp3
+https://api.assemblyai.com/v2/transcript/61bgn4o4z8-770f-4cfc-904d-adc0a4021ea2
+Doing Episode_64_-_AI_Apoptosis.mp3
+https://api.assemblyai.com/v2/transcript/61bgf4g3uo-6955-4a07-be9c-9cb1d7c48b13
+Doing Episode_70_The_Finale.mp3
+https://api.assemblyai.com/v2/transcript/61bgw5q52p-5651-413e-a28a-3c4d63e726fb
+Doing Fatal+Error+-+Episode+1.mp3
+https://api.assemblyai.com/v2/transcript/61bzelikt2-2440-4450-adfb-8dbdcb0a3460
